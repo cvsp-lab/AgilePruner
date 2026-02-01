@@ -2,7 +2,7 @@
 
 **ICLR 2026**
 
-[**🌐 Project Page**](https://higokri.github.io/ADA-VTP/) | [**📄 Paper**](#) (Coming Soon) | [**💻 Code**](#code) (Coming Soon)
+[**🌐 Project Page**](https://higokri.github.io/ADA-VTP/) | [**📄 Paper**](#) (Coming Soon)
 
 ## 🎉 News
 
