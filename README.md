@@ -34,10 +34,10 @@ Stay tuned for updates! ⏳
 ## 📧 Contact
 
 For questions or collaborations, please contact:
-- Kyeongbo Kong (Corresponding author)
 - Changwoo Baek
 - Jouwon Song
 - Sohyeon Kim
+- Kyeongbo Kong (Corresponding author)
 
 ## 📜 License
 
