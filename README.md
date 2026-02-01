@@ -1,6 +1,6 @@
 # An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models
 
-[Changwoo Baek](https://sites.google.com/view/changwoobaek00/%ED%99%88)<sup>*</sup>, Jouwon Song<sup>*</sup>, Sohyeon Kim<sup>*</sup>, Kyeongbo Kong<sup>†</sup>
+<span style="white-space: nowrap;">[Changwoo Baek](https://sites.google.com/view/changwoobaek00/%ED%99%88)<sup>*</sup></span>, <span style="white-space: nowrap;">Jouwon Song<sup>*</sup></span>, <span style="white-space: nowrap;">Sohyeon Kim<sup>*</sup></span>, <span style="white-space: nowrap;">Kyeongbo Kong<sup>†</sup></span>
 
 <sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author
 
