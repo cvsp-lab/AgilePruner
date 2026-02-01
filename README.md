@@ -34,7 +34,7 @@ Stay tuned for updates! ⏳
 ## 📧 Contact
 
 For questions or collaborations, please contact:
-- Changwoo Baek
+- [Changwoo Baek](https://sites.google.com/view/changwoobaek00/%ED%99%88)
 - Jouwon Song
 - Sohyeon Kim
 - Kyeongbo Kong (Corresponding author)
