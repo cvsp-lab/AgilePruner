@@ -2,15 +2,20 @@
 
 **ICLR 2026**
 
-[**Project Page**](https://higokri.github.io/ADA-VTP/) | [**Paper**](#) (Coming Soon)
+[**🌐 Project Page**](https://higokri.github.io/ADA-VTP/) | [**📄 Paper**](#) (Coming Soon) | [**💻 Code**](#code) (Coming Soon)
 
-## Overview
+## 🎉 News
+
+- **[2026/01]** 🎊 Our paper has been accepted to **ICLR 2026**!
+- **[2026/02]** 🚀 Project page is now live!
+
+## 📖 Overview
 
 Large Vision-Language Models (LVLMs) have adopted visual token pruning strategies to mitigate substantial computational overhead incurred by extensive visual token sequences. While prior works primarily focus on either attention-based or diversity-based pruning methods, in-depth analysis of these approaches' characteristics and limitations remains largely unexplored.
 
 In this work, we conduct thorough empirical analysis using effective rank (erank) as a measure of feature diversity and attention score entropy to investigate visual token processing mechanisms and analyze the strengths and weaknesses of each approach.
 
-## Key Findings
+## 🔍 Key Findings
 
 Our analysis reveals two key insights:
 
@@ -20,13 +25,13 @@ Our analysis reveals two key insights:
 
 Building on these empirical insights, we show that incorporating image-aware adjustments into existing hybrid pruning strategies consistently improves their performance. We also provide a minimal instantiation of our empirical findings through a simple adaptive pruning mechanism.
 
-## Code
+## 💻 Code
 
-**Detailed implementation code is coming soon.**
+**Detailed implementation code is coming soon.** 🚧
 
-Stay tuned for updates!
+Stay tuned for updates! ⏳
 
-## Contact
+## 📧 Contact
 
 For questions or collaborations, please contact:
 - Kyeongbo Kong (Corresponding author)
@@ -34,6 +39,6 @@ For questions or collaborations, please contact:
 - Jouwon Song
 - Sohyeon Kim
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
