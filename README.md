@@ -45,7 +45,6 @@ For questions or collaborations, please contact:
 - Jouwon Song
 - Sohyeon Kim
 
-## Affiliations
+## License
 
-- Pusan National University
-- LG Electronics
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
