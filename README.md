@@ -8,7 +8,7 @@
 
 ## 🎉 News
 
-- **[2026/01]** 🎊 Our paper has been accepted to **ICLR 2026**!
+- **[2026/01]** 🔥 Our paper has been accepted to **ICLR 2026** 🎊
 - **[2026/02]** 🚀 Project page is now live!
 
 ## 📖 Overview
@@ -26,6 +26,8 @@ Our analysis reveals two key insights:
 2. **Attention-based approaches are more effective on simple images** where visual evidence is concentrated, while **diversity-based methods better handle complex images** with distributed features.
 
 Building on these empirical insights, we show that incorporating image-aware adjustments into existing hybrid pruning strategies consistently improves their performance. We also provide a minimal instantiation of our empirical findings through a simple adaptive pruning mechanism.
+
+![Key Findings](docs/k_finding.png)
 
 ## 💻 Code
 
