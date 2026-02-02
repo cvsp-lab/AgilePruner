@@ -1,4 +1,4 @@
-# An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models
+# An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models [ICLR 2026]
 
 <a href="https://sites.google.com/view/changwoobaek00/%ED%99%88">Changwoo Baek</a><sup>*</sup>, Jouwon Song<sup>*</sup>, Sohyeon Kim<sup>*</sup>, Kyeongbo Kong<sup>†</sup>
 
@@ -8,7 +8,7 @@
 
 ## 🎉 News
 
-- **[2026/01]** 🔥 Our paper has been accepted to **ICLR 2026** 🎊
+- **[2026/01]** 🔥 Our paper has been accepted to **ICLR 2026!** 🎊
 - **[2026/02]** 🚀 Project page is now live!
 
 ## 📖 Overview
