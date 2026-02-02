@@ -21,7 +21,7 @@ In this work, we conduct thorough empirical analysis using effective rank (erank
 
 Our analysis reveals two key insights:
 
-1. **Diversity aware hybrid pruning methods preserve less feature diversity than intended**, and the diversity they do retain is closely tied to increased hallucination frequency compared to attention-based pruning.
+1. Diversity aware hybrid pruning methods preserve less feature diversity than intended, and **the diversity they do retain is closely tied to increased hallucination** frequency compared to attention-based pruning.
 
 <p align="center">
   <img src="docs/images/unused_s22.png" alt="Key Findings" width="600">
