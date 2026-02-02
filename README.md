@@ -27,7 +27,7 @@ Our analysis reveals two key insights:
 
 Building on these empirical insights, we show that incorporating image-aware adjustments into existing hybrid pruning strategies consistently improves their performance. We also provide a minimal instantiation of our empirical findings through a simple adaptive pruning mechanism.
 
-![Key Findings](docs/k_finding.png)
+<img src="docs/k_finding.png" alt="Key Findings" width="600">
 
 ## 💻 Code
 
