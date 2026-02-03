@@ -24,7 +24,7 @@ Our analysis reveals two key insights:
 1. Diversity aware hybrid pruning methods preserve less feature diversity than intended, and **the diversity they do retain is closely tied to increased hallucination** frequency compared to attention-based pruning.
 
 <p align="center">
-  <img src="docs/images/unused_s22.png" alt="Key Findings" width="600">
+  <img src="docs/images/halucination_comcept.png" alt="Key Findings" width="600">
 </p>
 
 2. **Attention-based approaches are more effective on simple images** where visual evidence is concentrated, while **diversity-based methods better handle complex images** with distributed features.
