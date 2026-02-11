@@ -75,16 +75,16 @@
             </div>
             <div class="is-size-5 publication-authors" style="font-weight: bold;">
               <span class="author-block">
-                <a href="https://sites.google.com/view/changwoobaek00/%ED%99%88" target="_blank" style="color: inherit; text-decoration: none;">Changwoo Baek</a><sup>1*</sup>
+                <a href="https://sites.google.com/view/changwoobaek00/%ED%99%88" target="_blank" style="color: #4A90D9; text-decoration: none;">Changwoo Baek</a><sup>1*</sup>
               </span>
               <span class="author-block">
-                Jouwon Song<sup>2*</sup>
+                <span style="color: #4A90D9;">Jouwon Song</span><sup>2*</sup>
               </span>
               <span class="author-block">
-                Sohyeon Kim<sup>1*</sup>
+                <a href="https://www.pnu-cvsp.com/members/sohyeon" target="_blank" style="color: #4A90D9; text-decoration: none;">Sohyeon Kim</a><sup>1*</sup>
               </span>
               <span class="author-block">
-                Kyeongbo Kong<sup>1†</sup>
+                <a href="https://www.pnu-cvsp.com/prof" target="_blank" style="color: #4A90D9; text-decoration: none;">Kyeongbo Kong</a><sup>1†</sup>
               </span>
             </div>
             <div class="is-size-6 publication-authors">
@@ -155,34 +155,7 @@
       </div>
     </div>
   </section>
-
-  <!-- Key Insight 1 -->
-  <section class="hero is-small is-white">
-      <div class="hero-body">
-      <div class="container is-four-fifths">
-        <div class="columns is-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3 has-text-centered">Impact of Image Complexity on Token Selection</h2>
-            <div class="content">
-              <p>Our analysis reveals that the ideal token selection strategy is dictated by image complexity. We found a clear divergence in performance based on the characteristics of the image:</p>
-              <ul>
-                <li><strong>Simple Images:</strong> Images with concentrated information (e.g., OCR tasks) exhibit low attention entropy and feature diversity (erank). For these, <strong>attention-based methods</strong> are more effective as they can easily select the few most important tokens.</li>
-                <li><strong>Complex Images:</strong> Scenes with multiple objects and varied backgrounds show higher attention entropy and erank, indicating dispersed information. In these cases, <strong>diversity-based methods</strong> perform better by capturing a broader range of features and preventing the loss of crucial context.</li>
-              </ul>
-            </div>
-            <br/>
-            <!-- <div class="has-text-centered">
-                <img src="s1.png" alt="Comparison of token selection on simple and complex images" />
-            </div> -->
-            <video poster="" id="tree1" controls autoplay height="100%">
-              <source src="images/complexity_impact.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </div>
-      </div>
-  </section>
-
+  
   <!-- Key Insight 2 -->
   <section class="hero is-small is-light">
     <div class="hero-body">
@@ -214,6 +187,35 @@
       </div>
     </div>
   </section>
+
+  <!-- Key Insight 1 -->
+  <section class="hero is-small is-white">
+      <div class="hero-body">
+      <div class="container is-four-fifths">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Impact of Image Complexity on Token Selection</h2>
+            <div class="content">
+              <p>Our analysis reveals that the ideal token selection strategy is dictated by image complexity. We found a clear divergence in performance based on the characteristics of the image:</p>
+              <ul>
+                <li><strong>Simple Images:</strong> Images with concentrated information (e.g., OCR tasks) exhibit low attention entropy and feature diversity (erank). For these, <strong>attention-based methods</strong> are more effective as they can easily select the few most important tokens.</li>
+                <li><strong>Complex Images:</strong> Scenes with multiple objects and varied backgrounds show higher attention entropy and erank, indicating dispersed information. In these cases, <strong>diversity-based methods</strong> perform better by capturing a broader range of features and preventing the loss of crucial context.</li>
+              </ul>
+            </div>
+            <br/>
+            <!-- <div class="has-text-centered">
+                <img src="s1.png" alt="Comparison of token selection on simple and complex images" />
+            </div> -->
+            <video poster="" id="tree1" controls autoplay height="100%">
+              <source src="images/complexity_impact.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
 
   <!-- Key Insight 3 -->
     <!-- Key Insight 3 -->
