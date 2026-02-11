@@ -158,41 +158,6 @@
 
   <!-- Key Insight 1 -->
   <section class="hero is-small is-white">
-    <div class="hero-body">
-      <div class="container is-four-fifths">
-        <div class="columns is-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3 has-text-centered">Pruning Methods and Hallucination</h2>
-            <div class="content">
-              <p>Object hallucination is a critical issue undermining the reliability of LVLMs. Our analysis on the CHAIR dataset reveals a distinct trade-off between attention-based and diversity-based pruning methods:</p>
-              <ul>
-                <li><strong>Diversity-Based Pruning:</strong> These methods achieve <strong>higher recall</strong> by capturing a wider range of objects. However, this comes at the cost of a <strong>higher tendency for hallucination</strong>, producing more descriptive but less reliable captions.</li>
-                <li><strong>Attention-Based Pruning:</strong> These methods are more <strong>conservative and reliable</strong>. They focus on tokens with high attention scores, which significantly <strong>reduces hallucination rates</strong>, though sometimes at the expense of lower recall.</li>
-              </ul>
-            </div>
-            <br/>
-            <!-- <div class="has-text-centered">
-                <img src="s22.png" alt="Placeholder image for Pruning Methods and Hallucination" />
-            </div> -->
-            <video poster="" id="tree2" controls muted height="100%">
-              <source src="images/pruning_hallucination_patterns.mp4" type="video/mp4" />
-            </video>
-            <br/>
-            <h3 class="title is-4 has-text-centered" style="margin-top: 10px;">Response patterns of DivPrune (diversity-based) vs. FasterVLM (attention-based).</h2>
-
-            <video poster="" id="tree3" controls muted height="100%">
-              <source src="images/attention_scores_hallucination.mp4" type="video/mp4" />
-            </video>
-            <br/>
-            <h3 class="title is-4 has-text-centered" style="margin-top: 10px;">Effect of attention scores on object hallucination.</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Key Insight 2 -->
-  <section class="hero is-small is-light">
       <div class="hero-body">
       <div class="container is-four-fifths">
         <div class="columns is-centered">
@@ -216,6 +181,38 @@
         </div>
       </div>
       </div>
+  </section>
+
+  <!-- Key Insight 2 -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container is-four-fifths">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Pruning Methods and Hallucination</h2>
+            <div class="content">
+              <p>Object hallucination is a critical issue undermining the reliability of LVLMs. Our analysis on the CHAIR dataset reveals a distinct trade-off between attention-based and diversity-based pruning methods:</p>
+              <ul>
+                <li><strong>Diversity-Based Pruning:</strong> These methods achieve <strong>higher recall</strong> by capturing a wider range of objects. However, this comes at the cost of a <strong>higher tendency for hallucination</strong>, producing more descriptive but less reliable captions.</li>
+                <li><strong>Attention-Based Pruning:</strong> These methods are more <strong>conservative and reliable</strong>. They focus on tokens with high attention scores, which significantly <strong>reduces hallucination rates</strong>, though sometimes at the expense of lower recall.</li>
+              </ul>
+            </div>
+            <br/>
+            <video poster="" id="tree2" controls muted height="100%">
+              <source src="images/pruning_hallucination_patterns.mp4" type="video/mp4" />
+            </video>
+            <br/>
+            <h3 class="title is-4 has-text-centered" style="margin-top: 10px;">Response patterns of DivPrune (diversity-based) vs. FasterVLM (attention-based).</h3>
+
+            <video poster="" id="tree3" controls muted height="100%">
+              <source src="images/attention_scores_hallucination.mp4" type="video/mp4" />
+            </video>
+            <br/>
+            <h3 class="title is-4 has-text-centered" style="margin-top: 10px;">Effect of attention scores on object hallucination.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Key Insight 3 -->
