@@ -1,4 +1,4 @@
-# [ICLR 2026] An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models 
+# [ICLR 2026] AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models 
 
 <a href="https://sites.google.com/view/changwoobaek00/%ED%99%88">Changwoo Baek</a><sup>*</sup>, Jouwon Song<sup>*</sup>, <a href="https://www.pnu-cvsp.com/members/sohyeon">Sohyeon Kim</a><sup>*</sup>, <a href="https://www.pnu-cvsp.com/prof">Kyeongbo Kong</a><sup>†</sup>
 
