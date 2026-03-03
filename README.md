@@ -1,10 +1,10 @@
 # [ICLR 2026] AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models 
 
-<a href="https://sites.google.com/view/changwoobaek00/%ED%99%88">Changwoo Baek</a><sup>*</sup>, Jouwon Song<sup>*</sup>, <a href="https://www.pnu-cvsp.com/members/sohyeon">Sohyeon Kim</a><sup>*</sup>, <a href="https://www.pnu-cvsp.com/prof">Kyeongbo Kong</a><sup>†</sup>
+<a href="https://sites.google.com/view/changwoobaek00/%ED%99%88">Changwoo Baek</a><sup>&ast;</sup>, Jouwon Song<sup>&ast;</sup>, <a href="https://www.pnu-cvsp.com/members/sohyeon">Sohyeon Kim</a><sup>&ast;</sup>, <a href="https://www.pnu-cvsp.com/prof">Kyeongbo Kong</a><sup>&dagger;</sup>
 
-<sup>*</sup>Equal contribution, <sup>†</sup>Corresponding author
+<sup>&ast;</sup>Equal contribution, <sup>&dagger;</sup>Corresponding author
 
-[**🌐 Project Page**](https://cvsp-lab.github.io/AgilePruner/) | [**📄 Paper**](#) (Coming Soon)
+[**🌐 Project Page**](https://cvsp-lab.github.io/AgilePruner/) | [**📄 Paper**](http://arxiv.org/abs/2603.01236)
 
 ## 🎉 News
 
@@ -45,8 +45,6 @@ Stay tuned for updates! ⏳
 
 For questions or collaborations, please contact:
 - [Changwoo Baek](https://sites.google.com/view/changwoobaek00/%ED%99%88)
-- Jouwon Song
-- [Sohyeon Kim](https://www.pnu-cvsp.com/members/sohyeon)
 - [Kyeongbo Kong](https://www.pnu-cvsp.com/prof) (Corresponding author)
 
 ## 🙏 Acknowledgements
