@@ -37,9 +37,56 @@ Building on these empirical insights, we show that incorporating image-aware adj
 
 ## 💻 Code
 
-**Detailed implementation code is coming soon.** 🚧
+This repository contains the full training-free implementation on top of [LLaVA](https://github.com/haotian-liu/LLaVA). The pruning method itself — effective rank (`effective_rank`), the adaptive threshold rule (`calculate_adaptive_tau`, Eq. 6 in the paper), and the token-selection procedure (`select_diverse_tokens_by_attention_and_distance`) — lives in [`llava/model/llava_arch.py`](llava/model/llava_arch.py).
 
-Stay tuned for updates! ⏳
+### 🏝️ Environment
+
+```bash
+git clone https://github.com/cvsp-lab/AgilePruner.git
+cd AgilePruner
+conda create -n agilepruner python=3.10 -y
+conda activate agilepruner
+pip install -e .
+```
+
+(Optional) Install FlashAttention for further inference acceleration:
+```bash
+pip install flash-attn --no-build-isolation
+```
+
+### 📦️ Model
+
+Download the corresponding [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md) checkpoint from Hugging Face 🤗, e.g. [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b). We also report results on LLaVA-1.5-13B, LLaVA-NeXT-7B, and Qwen2.5-VL-7B in the paper.
+
+### 📊 Data
+
+Download each benchmark's data following [EVAL.md](EVAL.md).
+
+### 📋️ Evaluation
+
+Each benchmark has its own script under `scripts/v1_5/eval/`. Pass the number of visual tokens to retain as the argument:
+```bash
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/${DATASET}.sh ${VISUAL_TOKEN_NUMBER}
+```
+For example, to keep 64 of the 576 visual tokens (89% reduction) on POPE:
+```bash
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/pope.sh 64
+```
+Full per-benchmark setup and submission instructions are in [EVAL.md](EVAL.md).
+
+### 🔖 Citation
+
+If you find AgilePruner useful for your research, please cite:
+```bibtex
+@inproceedings{baek2026agilepruner,
+      title={AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models},
+      author={Baek, Changwoo and Song, Jouwon and Kim, Sohyeon and Kong, Kyeongbo},
+      booktitle={International Conference on Learning Representations (ICLR)},
+      year={2026},
+      eprint={2603.01236},
+      archivePrefix={arXiv},
+}
+```
 
 ## 📧 Contact
 
