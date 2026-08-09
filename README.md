@@ -56,7 +56,7 @@ pip install flash-attn --no-build-isolation
 
 ### 📦️ Model
 
-Download the corresponding [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md) checkpoint from Hugging Face 🤗, e.g. [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b). We also report results on LLaVA-1.5-13B, LLaVA-NeXT-7B, and Qwen2.5-VL-7B in the paper.
+Download the corresponding [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md) checkpoint from Hugging Face 🤗, e.g. [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b). 
 
 ### 📊 Data
 
