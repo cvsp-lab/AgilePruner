@@ -62,11 +62,53 @@
         color: #0085FF;
         text-decoration: none;
     }
+    /* Top nav bar (self-contained, does not touch page layout) */
+    .oea-nav { position: sticky; top: 0; z-index: 900; display: flex; align-items: center;
+      justify-content: center; gap: 26px; flex-wrap: wrap;
+      padding: 12px 22px; background: rgba(255,255,255,0.92); -webkit-backdrop-filter: blur(8px);
+      backdrop-filter: blur(8px); border-bottom: 1px solid #eaeef4; font-family: 'Google Sans', sans-serif; }
+    .oea-nav a.oea-link { color: #333; font-weight: 600; font-size: 15px; text-decoration: none; transition: color .2s; }
+    .oea-nav a.oea-link:hover { color: #0085FF; }
+    .oea-nav a.oea-brand { color: #0f172a; font-weight: 700; }
+    @media (max-width: 640px){ .oea-nav { gap: 16px; } .oea-nav a.oea-link, .oea-trigger { font-size: 13px; } }
+    .oea-dd { position: relative; }
+    .oea-trigger { cursor: pointer; font-weight: 600; font-size: 15px; color: #333;
+      display: inline-flex; align-items: center; gap: 7px; user-select: none; }
+    .oea-trigger:hover { color: #0085FF; }
+    .oea-caret { font-size: 0.7em; transition: transform 0.2s; }
+    .oea-dd:hover .oea-caret, .oea-dd.open .oea-caret { transform: rotate(180deg); }
+    .oea-menu { position: absolute; top: 100%; right: 0; margin: 8px 0 0; padding: 6px; list-style: none;
+      min-width: 214px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(20,40,90,0.12); opacity: 0; visibility: hidden; transform: translateY(-6px);
+      transition: opacity 0.15s ease, transform 0.15s ease; z-index: 901; }
+    .oea-menu::before { content: ''; position: absolute; top: -12px; left: 0; right: 0; height: 12px; }
+    .oea-dd:hover .oea-menu, .oea-dd.open .oea-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+    .oea-menu li { margin: 0; }
+    .oea-menu a { display: block; padding: 9px 14px; border-radius: 7px; color: #333; font-size: 14px;
+      font-weight: 600; text-decoration: none; white-space: nowrap; }
+    .oea-menu a:hover { background: #f5f7fb; color: #0085FF; }
+    .oea-venue { color: #8a94a6; font-weight: 500; font-size: 0.82em; margin-left: 4px; }
   </style>
 
 </head>
 <body>
-  <section class="hero">
+  <nav class="oea-nav">
+    <a class="oea-link oea-brand" href="#top">AgilePruner</a>
+    <a class="oea-link" href="#abstract">Abstract</a>
+    <a class="oea-link" href="#results">Results</a>
+    <a class="oea-link" href="http://arxiv.org/abs/2603.01236" target="_blank">Paper</a>
+    <a class="oea-link" href="https://github.com/cvsp-lab/AgilePruner" target="_blank">Code</a>
+    <div class="oea-dd" id="oeaDd">
+      <span class="oea-trigger" tabindex="0">Other Efficient AI <i class="fas fa-chevron-down oea-caret"></i></span>
+      <ul class="oea-menu">
+        <li><a href="https://paper.pnu-cvsp.com/RestoreKV/" target="_blank">RestoreKV <span class="oea-venue">Preprint</span></a></li>
+        <li><a href="https://paper.pnu-cvsp.com/3DZip/" target="_blank">3DZip <span class="oea-venue">ECCV'26</span></a></li>
+        <li><a href="https://higokri.github.io/HybridKV/" target="_blank">HybridKV <span class="oea-venue">ICMLw'26</span></a></li>
+        <li><a href="https://higokri.github.io/BTS/" target="_blank">BTS Series <span class="oea-venue">Hub</span></a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="hero" id="top">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -138,7 +180,7 @@
   </section>
 
   <!-- Paper abstract -->
-  <section class="section hero is-light">
+  <section class="section hero is-light" id="abstract">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
@@ -353,7 +395,7 @@
   </section>
 
   <!-- LLaVA Models Section -->
-  <section class="hero is-small is-white">
+  <section class="hero is-small is-white" id="results">
       <div class="hero-body">
       <div class="container is-four-fifths">
               <div class="columns is-centered">
@@ -436,6 +478,15 @@
       </div>
     </div>
   </footer>
-  
+
+  <script>
+    (function () {
+      var dd = document.getElementById('oeaDd'); if (!dd) return;
+      var t = dd.querySelector('.oea-trigger');
+      t.addEventListener('click', function (e) { e.stopPropagation(); dd.classList.toggle('open'); });
+      t.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); dd.classList.toggle('open'); } });
+      document.addEventListener('click', function () { dd.classList.remove('open'); });
+    })();
+  </script>
 </body>
 </html>
