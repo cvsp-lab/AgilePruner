@@ -3,6 +3,14 @@
 __pycache__/
 *.pyc
 playground/
+# but keep the small eval/analysis data used by the scripts (no images)
+!playground/
+!playground/data/
+!playground/data/**/
+!playground/data/**/*.jsonl
+!playground/data/**/*.json
+!playground/data/**/*.txt
+playground/data/train/
 
 # Logs
 logs
