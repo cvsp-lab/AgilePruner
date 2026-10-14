@@ -88,8 +88,6 @@ If you find AgilePruner useful for your research, please cite:
    volume = {2026},
    year = {2026}
 }
-
-
 ```
 
 ## 📧 Contact
