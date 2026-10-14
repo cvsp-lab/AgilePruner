@@ -79,13 +79,17 @@ Full per-benchmark setup and submission instructions are in [EVAL.md](EVAL.md).
 If you find AgilePruner useful for your research, please cite:
 ```bibtex
 @inproceedings{baek2026agilepruner,
-      title={AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models},
-      author={Baek, Changwoo and Song, Jouwon and Kim, Sohyeon and Kong, Kyeongbo},
-      booktitle={International Conference on Learning Representations (ICLR)},
-      year={2026},
-      eprint={2603.01236},
-      archivePrefix={arXiv},
+   author = {Baek, Changwoo and Song, Jouwon and Kim, Sohyeon and Kong, Kyeongbo},
+   booktitle = {International Conference on Learning Representations},
+   editor = {C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A. Faust},
+   pages = {66116--66144},
+   title = {AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models},
+   url = {https://proceedings.iclr.cc/paper_files/paper/2026/file/6c9dcffe0b9cc3b05d83bcdddb250690-Paper-Conference.pdf},
+   volume = {2026},
+   year = {2026}
 }
+
+
 ```
 
 ## 📧 Contact
